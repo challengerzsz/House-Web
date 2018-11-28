@@ -12,5 +12,6 @@ import java.util.List;
 @Mapper
 public interface IUserMapper {
 
-    public List<User> selectUsers();
+    List<User> selectUsers();
+
 }
